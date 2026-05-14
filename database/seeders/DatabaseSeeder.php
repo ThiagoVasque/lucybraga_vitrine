@@ -13,8 +13,8 @@ class DatabaseSeeder extends Seeder
         // Cria a conta master da Lucy Braga
         User::factory()->create([
             'name' => 'Diretoria Lucy Braga',
-            'email' => 'admin@lucybraga.com.br',
-            'password' => Hash::make('lucy2026!'), 
+            'email' => 'admin@email.com.br',
+            'password' => Hash::make('senha'), 
         ]);
     }
 }
